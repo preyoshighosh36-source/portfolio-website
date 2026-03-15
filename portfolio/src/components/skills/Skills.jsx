@@ -2,7 +2,7 @@ import React from 'react';
 import frontend from '../../assets/frontend.jpeg';
 import frontend1 from '../../assets/frontend1.png';
 import frontend3 from '../../assets/frontend3.webp';
-import RESUME from './RESUME.pdf';
+import RESUME1 from './RESUME1.pdf';
 
 export default function Skills(){
     return(
@@ -21,7 +21,7 @@ export default function Skills(){
                    <img src={frontend3} alt='' className='hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32' loading='lazy'/>
                </div>
                <div className='mt-4 md:col-start-1 md:row-start-3 self-center lg:mt-2 lg:col-start-1 lg:row-start-3 lg:row-end-4'>
-                <a href={RESUME} download>
+                <a href={RESUME1} download>
                     <button data-aos='fade-up' data-aos-delay='500' type='button' className='text-white bg-blue-950 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-700 font-semibold rounded-full text-xs sm:text-sm px-4 py-2 text-center'>
                        Download CV 
                     </button>
